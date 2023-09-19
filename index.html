@@ -7,29 +7,25 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="header">
-        <img id="logo" src="images/logo.svg"/>
-        <div class="headerDiv">
-            <input id="cityNameInput" type="text" placeholder="Add new city" />
-            <button id="addCity"><img id="glass" src="images/glass.png"/></button>
+    <div id="navBar">Tickethack</div> 
+    <div id="container">
+        <div id="Titre">
+            <h1>Explore the world effortlessly by train !</h1>
+            <h3>Compare, book and enjoy cheap prices for train tickets your journey starts on Tickethack</h3>
         </div>
-        <img id="userIcon" src="images/user.png">
+    <div id="content">
+        <div id="contentLeft">
+                <input id="Departure" type="text" placeholder="Departure" />
+                <input id="Arrival" type="text" placeholder="Arrival" />
+                <input id="Date" type="date" placeholder="Value" />
+                <button id="searchbutton" type="button">Search</button>
+        </div> 
+        <div id="contentRight">
+		<img id="trainIcon" src="images/train.png">
+        <p>It's time to book your future trip.</p>
+	    </div>
     </div>
-    
-    <div id="cityList">
-    <div class="cityContainer">
-      <p class="name">Paris</p>
-      <p class="description">Cloudy</p>
-      <img class="weatherIcon" src="images/Clouds.png" />
-      <div class="temperature">
-        <p class="tempMin">7°C</p>
-        <span>-</span>
-        <p class="tempMax">24°C</p>
-      </div>
-      <button class="deleteCity" id="Paris">Delete</button>
-    </div>
-    </div>
-        
+     
     <script src="script.js"></script>
 </body>
 
