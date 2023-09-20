@@ -13,7 +13,6 @@ body {
     align-items: left;
     height: 6vh;
     padding: 5px 10px 5px 10px;
-    color: rgb(77, 150, 166);
     font-size: 18px;
     font-weight: bold;
     background-color: white;
@@ -35,6 +34,14 @@ body {
     font-weight: bold;   
     gap: 15px;
     margin-right: 15px;
+}
+
+.barRight a {
+    color:black;
+}
+
+.barLeft a {
+    color: rgb(77, 150, 166);
 }
 
 h1{
@@ -84,6 +91,8 @@ h3{
 	background-color: white;
 	background-size: cover;
 	border-radius: 20px;
+    max-height: 500px;
+    overflow-y:auto;
 }
 }
 
@@ -108,8 +117,16 @@ input {
 }
 
 #Date {
-    width: 80%;
+    width: 65%;
     margin: 65px;
     padding: 15px;
 
+}
+
+.trip {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+width: 100%;
+padding: 5px 10px;
 }
