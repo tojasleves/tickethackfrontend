@@ -1,0 +1,38 @@
+body {
+	min-height: 100vh;
+	width: 100vw;
+	margin: 0;
+	background:whitesmoke;
+    background-size: cover;
+    background-position: center center;
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    height: 6vh;
+    padding: 5px 10px 5px 10px;
+    color: rgb(77, 150, 166);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.barLeft {
+    color: rgb(77, 150, 166);
+    align-self: center;
+    align-items: left;
+    font-size: 18px;
+    font-weight: bold;   
+}
+
+.barRight {
+    display: flex;
+    color: black;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;   
+    gap: 15px;
+    margin-right: 15px;
+}
